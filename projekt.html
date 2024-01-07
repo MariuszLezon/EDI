@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDI</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+    <script src="./main.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Project EDI - ExoTiC CaRs</h1>
+        <h4>
+            by: Jakub Kmiecik, Julia Żaba, Mariusz Leżoń, Filip Cetnarowicz,
+        </h4>
+    </header>
+
+    <section>
+        <h2>Immerse yourself in an extraordinary collection of our cars! </h2>
+        <p>
+            <table id="tabela">
+                <tr>
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                    <th>VIN</th>
+                    <th>Color</th>
+                </tr>
+            </table>
+        </p>
+    </section>
+
+    <section>
+        <h2>Aviability of our Cars by Brands</h2>
+        <p><canvas id="bar"></canvas></p>
+    </section>
+
+    <section>
+        <h2>Availability of our Cars by Colors</h2>
+        <p><canvas id="pie"></canvas></p>
+    </section>
+
+    <section>
+        <h2>Availability of our Cars by Production Year</h2>
+        <p><canvas id="line"></canvas></p>
+    </section>
+
+    <footer>
+        <p>Visit our car showroom for more expirience!</p>
+    </footer>
+
+</body>
+
+</html>
